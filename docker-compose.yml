@@ -8,6 +8,7 @@ services:
     volumes:
       - ./mongo:/data/db
     ports:
-      - 27017:27017
+      - 27018:27017
+      # - 27017:27017
       # el puerto de la app : que sea igual al de la pc
     restart: always
